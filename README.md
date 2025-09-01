@@ -99,6 +99,16 @@ pnpm build
 5.  Execute **Run single‑packet (Agent)** or **Run parallel (Agent)**.
 6.  Check the table and select a row to see the **RAW** data. Use the context menu's **Copy RAW both**.
 
+## Screenshots
+
+<img width="544" height="106" alt="image" src="https://github.com/user-attachments/assets/3afaab87-ffe6-4783-957d-f4933a46c6cf" />
+<img width="634" height="201" alt="image" src="https://github.com/user-attachments/assets/e08c93aa-8b55-4fcf-9d50-2b5f0ec05b30" />
+<img width="444" height="283" alt="image" src="https://github.com/user-attachments/assets/83d47357-90bc-41c8-a13e-dc1a66e7a4dc" />
+<img width="797" height="470" alt="image" src="https://github.com/user-attachments/assets/9deb1210-7dde-488f-b1b8-69bcb30f6ed8" />
+<img width="499" height="273" alt="image" src="https://github.com/user-attachments/assets/fc6f1a5d-75e0-4398-a550-79adb02340f0" />
+<img width="784" height="737" alt="image" src="https://github.com/user-attachments/assets/a17bd88d-4068-4dfb-aff2-0fcb3868582b" />
+
+
 ## Racing Tip
 
   - If `Pipelined < Count`, the server does not accept pipelining. Use the **Parallel** button.
