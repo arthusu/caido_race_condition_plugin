@@ -1,0 +1,28 @@
+{
+  "id": "racecondition",
+  "name": "Race Condition",
+  "version": "2.3.0",
+  "description": "Agent-mode plugin with auto SSE connect",
+  "author": {
+    "name": "Jesus Espinoza",
+    "email": "jespinozasoto3@gmail.com",
+    "url": "https://www.linkedin.com/in/jespinozasoto/"
+  },
+  "plugins": [
+    {
+      "kind": "backend",
+      "id": "racecondition-backend",
+      "runtime": "javascript",
+      "entrypoint": "backend/index.js"
+    },
+    {
+      "kind": "frontend",
+      "id": "racecondition-frontend",
+      "entrypoint": "frontend/index.js",
+      "style": "frontend/style.css",
+      "backend": {
+        "id": "racecondition-backend"
+      }
+    }
+  ]
+}
